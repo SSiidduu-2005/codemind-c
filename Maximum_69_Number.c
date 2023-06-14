@@ -33,8 +33,10 @@ void array_convertor(int n){
 }
 int main(){
     int n;
-    scanf("%d",&n); 
-    if(n==9999) printf("9999");
+    scanf("%d",&n);
+    if(n==9999){
+        printf("9999");
+    }
     else{
     array_convertor(n);
     int a=get(0);
